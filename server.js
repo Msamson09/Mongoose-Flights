@@ -29,7 +29,7 @@ app.use(
   )
 )
 
-app.use('/', indexRouter)
+
 app.use('/flights', flightsRouter)
 
 // catch 404 and forward to error handler
